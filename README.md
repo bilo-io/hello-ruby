@@ -1,24 +1,15 @@
-# README
+# Hello Ruby
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a RoR (Ruby on Rails) tutorial, based on this [guide](http://guides.rubyonrails.org/getting_started.html).
 
-Things you may want to cover:
+It is basically a blog application, using the CRUD operations GET, POST, PUT & DELETE.
 
-* Ruby version
+There are 2 main resources in the application, namely articles (blog posts) and comments, that users can make on these articles.
 
-* System dependencies
+## Quickstart
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- `git clone https://github.com/bilo-io/hello-ruby.git`
+- `cd ./hello-ruby`
+- `bundle install`
+- `rails s` | `rails server`
+- [http://localhost:3000](http://localhost:3000)
